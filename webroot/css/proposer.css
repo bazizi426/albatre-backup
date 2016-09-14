@@ -1,0 +1,116 @@
+#proposer{
+    margin:60px 30%;
+}
+
+form{
+    width:auto;
+    margin:0px auto;
+}
+
+form .section{
+    margin-bottom:30px;
+}
+form .line div{
+    width:45%;
+    float:left;
+}
+form .line{
+    margin-bottom:20px;
+}
+form div span{
+    color:#ff0000;
+}
+form label{
+   display:block;
+   font-size:12px;
+   color:#777;
+   font-weight:bold;
+   margin-bottom:5px;
+   padding-left:0px;
+}
+input, textarea{
+    font-family: arial, verdana;
+    padding:10px 4px;
+    margin:0px;
+    padding-left:3px;
+    border:1px solid #c2c9cc;
+    outline: none;
+    font-weight:bold;
+    font-size:13px;
+    color:#333;
+    width:100%;
+    background:#f5f5f5;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    behavior: url(/css/border-radius.htc);
+    border-radius: 2px;
+}
+#contact .error input, #contact .error textarea{
+    background:#fff1f1;
+    border:#e56b6a 1px solid;
+    color:#bd2d2d;
+}
+.formlinks{
+    position:relative;
+    height:60px;
+}
+.formlinks div{
+    position:absolute;
+    left:0;
+    top:0;
+    font-size:12px;
+    color:#999;
+}
+.formlinks div span{
+    color:#ff0000;
+    font-weight:bold;
+}
+.warning{
+    /*border:#d65657 1px solid;*/
+    padding:0;
+    margin:0;
+    margin:10px auto 60px;
+    color:#000;
+    /*background:#fff;*/
+    width:400px;
+
+}
+.warning div{
+    background:url(../assets/warn.png) no-repeat center left;
+    padding:0;
+    margin:0;
+    padding-left:30px;
+    height:20px;
+    line-height:20px;
+    color:#d80202;
+    font-size:12px;
+    font-weight:bold;
+
+}
+
+.formlinks{
+    padding:40px 0 0;
+    text-align:center;
+}
+.formlinks a.submit{
+    font-family: Arial;
+    font-weight: 600;
+    text-transform:uppercase;
+    -webkit-font-smoothing: antialiased;
+    text-align:justify;
+    padding:16px 40px;
+    font-size:0.7em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    behavior: url(/css/border-radius.htc);
+    border-radius: 3px;
+    background-color:rgba(248, 112, 3, 0.5);
+    border:#f87003 1px solid;
+    color:#fff;
+    margin:0 4px;
+}
+.formlinks a.submit:hover{
+    background:rgb(248, 112, 3);
+}

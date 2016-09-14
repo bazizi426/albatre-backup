@@ -1,0 +1,1 @@
+<?php foreach($datas as $key => $data) echo $this->element('produit', array('data' => $data, 'key' => $key));?>
